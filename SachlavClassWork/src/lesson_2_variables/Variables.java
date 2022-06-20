@@ -21,6 +21,6 @@ public class Variables {
         System.out.println(MyChar);
 
         String myString = "Alex";
-        String myLastName = new String("Komanov"); 
+        String myLastName = new String("Komanov");
     }
 }
