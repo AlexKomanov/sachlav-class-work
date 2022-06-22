@@ -1,4 +1,4 @@
-package lesson_3_operators;
+package lesson_3_operators.tasks;
 
 import java.util.Scanner;
 
