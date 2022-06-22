@@ -12,11 +12,11 @@ public class CoffeeMachine {
         Scanner input = new Scanner(System.in);
         System.out.print("Insert your money: ");
         budget = input.nextInt();
-        if (budget != 0 ){
-            System.out.println("1 - Espresso");
-            System.out.println("2 - Cappuccino");
-            System.out.println("3 - Americano");
-            System.out.println("4 - Tea");
+        if (budget > 0 ){
+            System.out.println("1 - Espresso (40p)");
+            System.out.println("2 - Cappuccino (80p)");
+            System.out.println("3 - Americano (60p)");
+            System.out.println("4 - Tea (10p)");
             System.out.print("Choose your drink: ");
             int userChoice = input.nextInt();
 
@@ -40,18 +40,22 @@ public class CoffeeMachine {
             if(budget >= drinkCost) {
                 System.out.println("Drink number " + userChoice + " was chosen.");
                 System.out.println("Take your drink!");
-                System.out.println("Your change is " + (budget -= drinkCost));
+                System.out.println("Your change is " + (budget - drinkCost));
             }
             else {
-                System.out.println("Your budget is not enough.");
+                System.out.println("Your budget " + budget + " is not enough to buy drink with a cost " + drinkCost);
             }
 
         }
-        else {
+        else if (budget == 0){
             System.out.println("Your budget is 0.");
         }
 
-        System.out.println("budget = " + budget);
+        else {
+            System.out.println("Not valid number.");
+        }
+
+//        System.out.println("budget = " + budget);
     }
 
 }
