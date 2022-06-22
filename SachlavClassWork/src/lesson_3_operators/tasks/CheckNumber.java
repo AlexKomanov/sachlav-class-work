@@ -10,9 +10,7 @@ public class CheckNumber {
 
         System.out.print("Введите число: ");
 
-        // Cоздаём строкову локальную переменную с именем usersLogin
-        // и принимаем в нее ввод от пользователя
-
+        // Принимаем ввод от пользователя
         int number = in.nextInt();
 
         if (number % 2 == 0) {
