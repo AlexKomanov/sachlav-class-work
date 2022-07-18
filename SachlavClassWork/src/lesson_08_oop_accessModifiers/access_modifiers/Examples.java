@@ -1,4 +1,4 @@
-package lesson_08_oop_accessModifiers.tasks.task_01_polymorphism_inheritance.ddddd.access_modifiers;
+package lesson_08_oop_accessModifiers.access_modifiers;
 
 public class Examples {
 
