@@ -1,6 +1,6 @@
-package lesson_07_oop_accessModifiers.tasks.task_02_polymorphism_inheritance;
+package lesson_08_oop_accessModifiers.tasks.task_01_polymorphism_inheritance;
 
-public class Triangle extends Figure{
+public class Triangle extends Figure {
 
 
     public Triangle(double height, double width) {
