@@ -1,0 +1,8 @@
+package lesson_08_oop_accessModifiers_interfaces.interfaces_module;
+
+import lesson_08_oop_accessModifiers_interfaces.interfaces_module.interfaces.Breathable;
+import lesson_08_oop_accessModifiers_interfaces.interfaces_module.interfaces.Flyable;
+import lesson_08_oop_accessModifiers_interfaces.interfaces_module.interfaces.Runnable;
+
+public interface TestInheritance extends Flyable, Breathable, Runnable {
+}
